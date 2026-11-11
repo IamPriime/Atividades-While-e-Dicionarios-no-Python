@@ -1,4 +1,4 @@
-readme_content = """# 🚀 Guia de Aprendizado: Python do Básico à Análise de Dados com Pandas
+readme_corrigido = """# 🚀 Guia de Aprendizado: Python do Básico à Análise de Dados com Pandas
 
 Este notebook é uma jornada de aprendizado prática que vai desde conceitos fundamentais de controle de fluxo em Python até os primeiros passos cruciais em Ciência e Análise de Dados utilizando a biblioteca **Pandas**.
 
@@ -6,9 +6,9 @@ Este notebook é uma jornada de aprendizado prática que vai desde conceitos fun
 
 ## 📌 Sumário de Conteúdos
 
-1. [Estruturas de Repetição (`while` e `while True`)](#1-estruturas-de-repeti%C3%A7%C3%A3o)
-2. [Estruturas de Dados Dinâmicas (Dicionários)](#2-estruturas-de-dados-dicion%C3%A1rios)
-3. [Introdução à Análise de Dados com Pandas (`dados_contas`)](#3-an%C3%A1lise-de-dados-com-pandas)
+1. [Estruturas de Repetição](#1-estruturas-de-repeticao)
+2. [Estruturas de Dados Dinâmicas (Dicionários)](#2-estruturas-de-dados-dicionarios)
+3. [Introdução à Análise de Dados com Pandas](#3-analise-de-dados-com-pandas)
 
 ---
 
@@ -29,7 +29,7 @@ Apresentação de dicionários em Python para manipulação rápida de pares de 
 
 ---
 
-## 3. Análise de Dados com Pandas (`dados_contas`)
+## 3. Análise de Dados com Pandas
 
 Aqui damos o salto para a análise de dados real! Utilizando a base de dados `/content/contas_saldos.csv`, carregamos e estruturamos as informações no DataFrame chamado **`dados_contas`**.
 
@@ -46,6 +46,6 @@ Aqui damos o salto para a análise de dados real! Utilizando a base de dados `/c
 """
 
 with open("README.md", "w", encoding="utf-8") as f:
-    f.write(readme_content)
+    f.write(readme_corrigido)
 
-print("Arquivo README.md criado com sucesso no diretório atual!")
+print("Arquivo README.md atualizado com sucesso com as correções para o Git!")
